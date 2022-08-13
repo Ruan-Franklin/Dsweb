@@ -7,7 +7,7 @@ from django.urls import reverse
 #Views da página de finanças.
 class PrincipalView(View):
     def get(self,request,*args,**kwargs):
-        return render(request,'templates/dash.html')
+        return render(request,'inicio.html')
 
 def index(request):
     return HttpResponse("Bem-vindo á primeira View de finanças!")

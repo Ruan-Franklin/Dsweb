@@ -5,7 +5,7 @@ app_name='finanças'
 urlpatterns =[
     path('',views.index,name='index'),
     #Principal view
-    path('dash/', views.PrincipalView.as_view(), name='principal'),
+    path('inicio/', views.PrincipalView.as_view(), name='principal'),
     
 
 
